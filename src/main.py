@@ -21,7 +21,7 @@ class LiveGraph:
         self.tflow = Computeflow(self.image_new, self.image_old, (30, 40))
         self.dflow = self.tflow
         self.frame = 0
-
+    
     def Animate(self, i):
         if(self.frame > 0):
             self.image_new = GetImage(self.capture, self.scale)
