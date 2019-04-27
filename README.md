@@ -8,7 +8,7 @@ This figure shows my respiration rate. The widths of the peaks can be used to me
 # Packages
 To install the required python3 packages run:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 If getting qt / libjasper / libatlas errors, execute:
@@ -23,10 +23,10 @@ sudo apt-get install libqt4-test
 # Instructions
 To see the graph in real-time, execte:
 ```
-python src/main.py
+python3 src/main.py
 ```
 
 To save respiration signal to a text file, execte:
 ```
-python src/module.py
+python3 src/module.py
 ```
