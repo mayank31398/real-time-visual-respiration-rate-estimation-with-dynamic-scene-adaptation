@@ -11,7 +11,7 @@ To install the required python3 packages run:
 pip3 install -r requirements.txt
 ```
 
-If getting qt / libjasper / libatlas errors, execute:
+If getting qt / libjasper / libatlas errors, run:
 ```
 sudo apt-get install libatlas-base-dev
 sudo apt-get install libjasper-dev
@@ -21,12 +21,12 @@ sudo apt-get install libqt4-test
 ```
 
 # Instructions
-To see the graph in real-time, execte:
+To see the graph in real-time, run:
 ```
 python3 src/main.py
 ```
 
-To save respiration signal to a text file, execte:
+To save respiration signal to a text file, run:
 ```
 python3 src/module.py
 ```
